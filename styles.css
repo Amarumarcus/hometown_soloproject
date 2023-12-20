@@ -1,0 +1,104 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: auto;
+    text-align: center;
+    font-family: 'Neonderthaw', cursive;
+    font-family: 'Tilt Neon', sans-serif;
+    color: #F7E801;
+    text-shadow: 0px 0px 4px #5BC8E6;
+    max-width: 720px;
+    background-color: black;
+}
+
+#hero {
+    background: url("images/Night_City.webp");
+    background-size: cover;
+    padding: 5px 20px;
+    margin: 0px;
+}
+
+h1 {
+    font-family: 'Neonderthaw', cursive;
+    font-size: 70px;
+    text-shadow: 5px 5px 4px #5BC8E6;
+    
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+#activities {
+    background-color: #F7E801;
+    padding: 5px 0 15px 0;
+    color: black;
+    text-shadow: 0px 0px 1px #5BC8E6;
+}
+
+#img-act-holder {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.img-act {
+    width: 30%;
+    border-radius: 50px;
+}
+
+.img-act:hover {
+    transform: scale(1.1);
+}
+
+#act-desc-holder {
+    display: flex;
+    justify-content: space-around;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+h4, p {
+    margin: 5px 0px 5px 0px;
+}
+
+#avatar {
+    width: 30%;
+    height: 30%;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+
+#guide {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 70%;
+    margin: 0 auto;
+    text-align: start;
+    padding: 0px 0px 15px 0px;
+}
+
+#upgrade {
+    background-color: #F7E801;
+    padding: 10px 0px;
+    color: black;
+    text-shadow: 0px 0px 1px #5BC8E6;
+    padding-bottom: 30px;
+}
+
+#cbwr {
+    width: 90%;
+    border-radius: 10px;
+}
